@@ -1,4 +1,6 @@
-This library allows simple access to the ADXL345, HMC5843, and ITG3200 sensors in Arduiono projects.
+
+
+The SensorLib library allows simple access to the ADXL345, HMC5843, and ITG3200 sensors in Arduiono projects.
 
 To use this library in an Arduino sketch, do the following.
 
@@ -76,4 +78,7 @@ void printInt16Array(const int16_t* buf, size_t len) {
   }
   Serial.println();
 }
+
+This work copyright 2012 by Rolfe Schmidt, who can be contacted at rolfeschmidt@gmail.com  
+Available at https://github.com/rolfeschmidt/SensorLib
 

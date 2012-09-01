@@ -1,6 +1,6 @@
 
 
-The SensorLib library allows simple access to the ADXL345, HMC5843, and ITG3200 sensors in Arduiono projects.
+muCSense is a sensor access library for microcontrollers.  It allows simple access to the ADXL345, HMC5843, and ITG3200 sensors in Arduiono projects.
 
 To use this library in an Arduino sketch, do the following.
 
@@ -8,13 +8,13 @@ To use this library in an Arduino sketch, do the following.
 
 (1) Place the source code in the directory 
 
-	<YourArduinoDir>/libraries/SensorLib/
+	<YourArduinoDir>/libraries/muCSense/
 
 	You may have to create the directory "<YourArduinoDir>/libraries/".  
 
 (2) Open your sketch in Arduino 1.0.1 or higher.
 
-(3) On the Menu select Sketch->Import Library...->SensorLib.  SensorLib will appear under "Contributed Libraries"
+(3) On the Menu select Sketch->Import Library...->muCSense.  muCSense will appear under "Contributed Libraries"
 
 Now you can write your code.
 
@@ -80,5 +80,5 @@ void printInt16Array(const int16_t* buf, size_t len) {
 }
 
 This work copyright 2012 by Rolfe Schmidt, who can be contacted at rolfeschmidt@gmail.com  
-Available at https://github.com/rolfeschmidt/SensorLib
+Available at https://github.com/rolfeschmidt/muCSense
 

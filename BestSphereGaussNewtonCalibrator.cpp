@@ -132,7 +132,7 @@ void BestSphereGaussNewtonCalibrator::computeGNMatrices(float JtJ[][6], float Jt
   for(i=0;i<3;++i) {
     //Compute product of Jacobian matrix with the residual vector
     JtR[i] = 2*(rx[i] - _beta[i]*r)/beta2[3+i];
-    JtR[3+j] = 2*(rx2[i] - 2*_beta[i]*rx[i] + beta2[i]*r)/(beta2[3+i]*_beta[3+i]);
+    JtR[3+i] = 2*(rx2[i] - 2*_beta[i]*rx[i] + beta2[i]*r)/(beta2[3+i]*_beta[3+i]);
     
     //Now compute the product of the transpose of the jacobian with itself
     //Start with the diagonal blocks

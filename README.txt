@@ -1,4 +1,4 @@
-
+Motivation and sample code for this library can be found at https://chionophilous.wordpress.com/.
 
 muCSense is a sensor access library for microcontrollers.  It allows simple access to the ADXL345, HMC5843, and ITG3200 sensors in Arduiono projects.
 
@@ -79,6 +79,6 @@ void printInt16Array(const int16_t* buf, size_t len) {
   Serial.println();
 }
 
-This work copyright 2012 by Rolfe Schmidt, who can be contacted at rolfeschmidt@gmail.com  
+This work copyright 2012 by Rolfe Schmidt, who can be contacted at rolfe@alumni.princeton.edu  
 Available at https://github.com/rolfeschmidt/muCSense
 
